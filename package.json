@@ -1,0 +1,45 @@
+{
+  "name": "xee-preload",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "pack": "gulp pack",
+    "test": "gulp test"
+  },
+  "author": "hzxiezhongzheng",
+  "license": "ISC",
+  "devDependencies": {
+    "ansi-html": "0.0.7",
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.8",
+    "bs-fullscreen-message": "^1.1.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.28.1",
+    "del": "^2.2.2",
+    "es3ify-loader": "^0.2.0",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "file-loader": "^0.11.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-mocha": "^4.3.1",
+    "style-loader": "^0.17.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1",
+    "webpack-dev-middleware": "^1.10.2"
+  },
+  "dependencies": {
+    "xee-media": "0.0.1",
+    "xee-utils": "0.0.4"
+  }
+}
