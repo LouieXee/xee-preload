@@ -1,7 +1,5 @@
 'use strict';
 
-const pkg = require('./package.json');
-
 const webpack = require('webpack');
 const path = require('path');
 
@@ -36,9 +34,5 @@ module.exports = {
         ]
     },
 
-    plugins: [
-        new webpack.DefinePlugin({
-            VERSION: JSON.stringify(pkg.version)
-        }),
-    ]
+    plugins: []
 };
