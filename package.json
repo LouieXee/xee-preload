@@ -1,6 +1,6 @@
 {
   "name": "xee-preload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -39,7 +39,7 @@
     "webpack-dev-middleware": "^1.10.2"
   },
   "dependencies": {
-    "xee-media": "0.0.1",
-    "xee-utils": "0.0.4"
+    "xee-media": "*",
+    "xee-utils": "*"
   }
 }
