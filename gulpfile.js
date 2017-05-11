@@ -5,6 +5,7 @@ const path = require('path');
 
 const gulp = require('gulp');
 const babel = require('gulp-babel');
+const es3ify = require('gulp-es3ify');
 const mocha = require('gulp-mocha');
 const del = require('del');
 const browserSync = require('browser-sync');
@@ -67,6 +68,7 @@ gulp.task('build', ['clean'], () => {
                 'babel-plugin-add-module-exports'
             ]
         }))
+        .pipe(es3ify())
         .pipe(gulp.dest('build'));
 })
 

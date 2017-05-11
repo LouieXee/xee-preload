@@ -12,7 +12,7 @@ var _xeeUtils2 = _interopRequireDefault(_xeeUtils);
 
 var _xeeMedia = require('xee-media');
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -48,8 +48,8 @@ var XeePreload = function () {
 
             var _EXP_REGS = this._EXP_REGS;
             var preloadData = opt.data;
-            var onProgress = _xeeUtils2.default.isFunction(opt.onProgress) && opt.onProgress || _xeeUtils2.default.noop;
-            var onComplete = _xeeUtils2.default.isFunction(opt.onComplete) && opt.onComplete || _xeeUtils2.default.noop;
+            var onProgress = _xeeUtils2["default"].isFunction(opt.onProgress) && opt.onProgress || _xeeUtils2["default"].noop;
+            var onComplete = _xeeUtils2["default"].isFunction(opt.onComplete) && opt.onComplete || _xeeUtils2["default"].noop;
             var count = 0;
             var total = 0;
 
@@ -67,12 +67,12 @@ var XeePreload = function () {
                         img.src = url;
                     } else if (_EXP_REGS.JS_REG.test(url)) {
                         total++;
-                        _xeeUtils2.default.loadScript(url).then(function () {
+                        _xeeUtils2["default"].loadScript(url).then(function () {
                             _loadedCallback();
                         });
                     } else if (_EXP_REGS.CSS_REG.test(url)) {
                         total++;
-                        _xeeUtils2.default.loadStyle(url).then(function () {
+                        _xeeUtils2["default"].loadStyle(url).then(function () {
                             _loadedCallback();
                         });
                     } else if (_EXP_REGS.VIDEO_REG.test(url)) {
@@ -135,5 +135,5 @@ var XeePreload = function () {
     return XeePreload;
 }();
 
-exports.default = new XeePreload();
+exports["default"] = new XeePreload();
 module.exports = exports['default'];

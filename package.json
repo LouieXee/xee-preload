@@ -1,6 +1,6 @@
 {
   "name": "xee-preload",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "file-loader": "^0.11.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "gulp-es3ify": "0.0.0",
     "gulp-mocha": "^4.3.1",
     "style-loader": "^0.17.0",
     "stylus": "^0.54.5",
