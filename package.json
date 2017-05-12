@@ -1,35 +1,11 @@
 {
   "name": "xee-preload",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
+  "xeeType": "component",
   "main": "build/index.js",
-  "scripts": {
-    "serve": "gulp serve",
-    "build": "gulp build",
-    "pack": "gulp pack",
-    "test": "gulp test"
-  },
   "author": "hzxiezhongzheng",
   "license": "ISC",
-  "devDependencies": {
-    "autoprefixer-loader": "^3.2.0",
-    "babel-core": "^6.24.1",
-    "babel-eslint": "^7.2.3",
-    "babel-loader": "^7.0.0",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-es2015": "^6.24.1",
-    "chai": "^3.5.0",
-    "css-loader": "^0.28.1",
-    "es3ify-loader": "^0.2.0",
-    "eslint": "^3.19.0",
-    "eslint-loader": "^1.7.1",
-    "file-loader": "^0.11.1",
-    "style-loader": "^0.17.0",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
-    "url-loader": "^0.5.8",
-    "webpack": "^2.5.1"
-  },
   "dependencies": {
     "xee-media": "*",
     "xee-utils": "*"
