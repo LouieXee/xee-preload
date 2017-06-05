@@ -1,8 +1,10 @@
 {
   "name": "xee-preload",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
-  "xeeType": "component",
+  "xeeConfig": {
+    "type": "component"
+  },
   "main": "build/index.js",
   "author": "hzxiezhongzheng",
   "license": "ISC",
