@@ -8,6 +8,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+// TODO 基础类，后续可能定义公共方法
 var Base = function () {
     function Base() {
         _classCallCheck(this, Base);
